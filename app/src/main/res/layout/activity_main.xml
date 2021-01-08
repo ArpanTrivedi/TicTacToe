@@ -25,7 +25,7 @@
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Player 1: 0"
+                android:text="Player 1 (X): 0"
                 android:textSize="30sp"
                 android:textColor="#ffffff"
                 />
@@ -33,7 +33,7 @@
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Player 2: 0"
+                android:text="Player 2 (O): 0"
                 android:textSize="30sp"
                 android:textColor="#ffffff"
                 />
