@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(MainActivity.this,
                 "Player Two Wins(O)", Toast.LENGTH_SHORT).show();
         playerTwoPoints++;
-        textViewPlayerTwo.setText("Player 2: " + playerTwoPoints);
+        textViewPlayerTwo.setText("Player 2 (O): " + playerTwoPoints);
         resetBoard();
     }
 
@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(MainActivity.this,
                 "Player One Wins(X)", Toast.LENGTH_SHORT).show();
         playerOnePoints++;
-        textViewPlayerOne.setText("Player 1: " + playerOnePoints);
+        textViewPlayerOne.setText("Player 1 (X): " + playerOnePoints);
         resetBoard();
     }
 
@@ -121,8 +121,8 @@ public class MainActivity extends AppCompatActivity {
         playerOnePoints = 0;
         playerTwoPoints = 0;
 
-        textViewPlayerOne.setText("Player 1: " + playerOnePoints);
-        textViewPlayerTwo.setText("Player 2: " + playerTwoPoints);
+        textViewPlayerOne.setText("Player 1 (X): " + playerOnePoints);
+        textViewPlayerTwo.setText("Player 2 (O): " + playerTwoPoints);
         resetBoard();
     }
 
